@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>My Web Page</title>
+<title>a puzzle</title>
+<script src="puzzlescript.js"> </script>
+
+<style type="text/css">
+#h1{
+  text-align: center;
+  color: tomato;
+  font-size:40px;
+}
+.tst1 {text-align: center;color: gray;}
+button {
+       width: 200px;
+       padding:8px;
+       background-color: turquoise;
+       border-color: #357ebd;
+       color: #fff;
+       -moz-border-radius: 10px;
+       -webkit-border-radius: 10px;
+       border-radius: 10px; /* future proofing */
+       -khtml-border-radius: 10px; /* for old Konqueror browsers */
+       text-align: center;
+       vertical-align: middle;
+       border: 1px solid transparent;
+       font-weight: 900;
+       font-size:125%
+     }
+</style>
+
 </head>
-<body style="background-color:lavender;">
-  <h1 style="background-color:lightskyblue;">My First Website</h1>
-   <h2>I hope you like it here.</h2>
-    <h3>I hope you like it here.</h3>
-     <h4>I hope you like it here.</h4>
-      <h5>I hope you like it here.</h5>
-       <h6>I hope you like it here.</h6>
-        <p style="color:midnightblue">This is my paragrah</p><br>
-        <p>This is another paragraph</p>
-         <b>Bold text</b>
-         <i>Italic text</i>
-         <em>Emphasized text</em>
-         <sub>Subscript text</sub>
-         <sup>Superscript text</sup>
-         <img src="http://www.cuc.edu.cn/_upload/site/00/05/5/logo.png"></img>
-         <a href=="http://by.cuc.edu.cn"target="_blank">This is the link to CUC's webside</a>
-         <img src="campus.jpeg"></img>
+
+<body>
+  <h1 class="tst1">试在符号左侧添加代数运算符号，构成一个正确的等式。</h1>
+  <h2 id="h1">7 7 7=6</h2>
+  <div align=center><button onclick="showTopic()" >点击按钮回答问题</button></div>
+
 </body>
 </html>
