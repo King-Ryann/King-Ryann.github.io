@@ -1,0 +1,56 @@
+html,body{
+  font-family: 'Poppins',sans-serif;
+  color: #222;
+}
+
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+
+.btn-outline-secondary{
+  border: 1px solid #ff1493;
+  color:#ff1493;
+}
+
+.btn-outline-primary{
+  border: 1px solid #ff1493;
+  color:#ff1493;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn-outline-primary:hover{
+  background-color: #c71585;
+  border: 1px solid #ff1493;
+}
+/*-- Fixed Background Image --*/
+figure{
+  position: relative;
+  width:100%
+  height:60%
+  margin:0;
+}
+.gif{
+  max-width: 100%;
+}
+
+.light{
+  border-top: 1px solid #FFFFFF;
+  width:65%;
+}
+
+footer{
+  background-color: #ff1493;
+  color:#FFFFFF;
+  padding-top: 2rem;
+}
+
+#fixed {
+  background-image: url('img/why.jpg');
+  height:600px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
